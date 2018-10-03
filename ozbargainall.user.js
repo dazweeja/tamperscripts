@@ -13,7 +13,7 @@
     'use strict';
 
     var replies = $('ul.comment.level1');
-    var showLink = $('<a>show replies</a>').click(function() {
+    var showLink = $('<a>hide replies</a>').click(function() {
         if ($( this ).text() == 'show replies') {
             replies.css('display', 'block');
             $( this ).text('hide replies');
@@ -24,6 +24,6 @@
         }
     });
 
-    var item = $('<span>').append(' (').append(showLink).append(' )');
+    var item = $('<span>').append(' (').append(showLink).append(')').css('text-transform', 'none');
     $('#comment').append(item);
 })();
