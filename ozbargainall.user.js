@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OzBargain Hide All Comment Replies
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Hide all comment replies on OzBargain
 // @author       Dazweeja
 // @match        https://www.ozbargain.com.au/node/*
